@@ -1,0 +1,30 @@
+{
+    "format_version": 1,
+    "imports": [
+      {
+        "target_table": "C1H1HDI1TABLE",
+        "source_data": {
+          "data_type": "CSV",
+          "file_name": "C1H1HDI1TABLE.csv",
+          "has_header": false,
+          "type_config": {
+            "delimiter": ","
+          }
+        },
+        "import_settings": {
+          "import_columns": [
+            "SalesOrderId",
+            "ProductId",
+            "Quantity",
+            "DeliveryDate"  ],
+          "include_filter": []
+        },
+        "column_mappings": {
+          "SalesOrderId": 1,
+          "ProductId": 2,
+          "Quantity": 3,
+          "DeliveryDate": 4
+        }
+      }
+    ]
+  }

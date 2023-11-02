@@ -1,0 +1,20 @@
+_schema-version: "2.1"
+ID: CF1_HCDB1
+version: 0.0.1
+modules:
+- name: CF1_HCDB1-db
+  type: hdb
+  path: CF1_HCDB1-db
+  requires:
+  - name: hdi_CF1_HCDB1-db
+    properties:
+      TARGET_CONTAINER: ~{hdi-container-name}
+resources:
+- name: hdi_CF1_HCDB1-db
+  type: com.sap.xs.hdi-container
+  parameters:
+    config:
+      database_id: a1fa3674-74a3-45a2-aa10-69f36c03cdce
+      schema: CF1_HCDB1_SCHEMA1
+  properties:
+    hdi-container-name: ${service-name}

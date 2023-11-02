@@ -1,0 +1,14 @@
+{
+    "role": {
+        "name": "C1H1HDI1SP",
+        "object_privileges": [
+            {
+                "name": "C1H1HDI1TABLE",
+                "type": "TABLE",
+                "privileges": [
+                    "SELECT"
+                ]
+            }
+        ]
+    }
+}

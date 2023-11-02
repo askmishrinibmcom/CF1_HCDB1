@@ -1,0 +1,6 @@
+column table "C1H1HDI1TABLE" (
+   "SalesOrderId"  NVARCHAR(10)  NOT NULL   comment 'Sales Order ID',
+   "ProductId"  NVARCHAR(10)  NOT NULL   comment 'Product ID',
+   "Quantity"  INTEGER   comment 'Quantity',
+   "DeliveryDate"  DATE     comment 'Scheduled Delivery Date',
+    primary key  ( "SalesOrderId"))
